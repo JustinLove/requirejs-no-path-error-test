@@ -2,7 +2,10 @@
 
 https://github.com/jwhitley/requirejs-rails/issues/50
 
-The error happens in production mode, which assumes precompiled assets.
+1. bundle install
+2. rake assets:precompile
+3. RAILS_ENV=production rails s
+4. http://localhost:3000
 
 == Stack
 
